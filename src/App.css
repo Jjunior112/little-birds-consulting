@@ -186,10 +186,13 @@ footer {
   margin-bottom: 4em;
   }
   .hero a
-  {
-    
+  { 
     font-size: smaller;
     padding: 1em;
   }
+
+    .about {
+    height: 35em;
+    }
 
 }
