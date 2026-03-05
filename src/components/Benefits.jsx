@@ -60,12 +60,6 @@ function Benefits() {
 
             </div>
 
-               <h2>Controle Empresarial Efetivo</h2>
-
-                <div className="graph">
-                    <img src="layout1.webp" alt="dashboard Power BI" />
-                    <img src="layout2.webp" alt="dashboard Power BI" />
-                </div>
         </section>
     );
 }

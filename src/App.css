@@ -1,9 +1,9 @@
 :root {
-  --color1: #7db3d7; 
-  --color2: #f1f1f1; 
-  --color3: #032840; 
-  --color4: #312e2e; 
-  --color5: #032840; 
+  --color1: #7db3d7;
+  --color2: #f1f1f1;
+  --color3: #032840;
+  --color4: #312e2e;
+  --color5: #032840;
 
 }
 
@@ -51,10 +51,12 @@ body {
   margin: 0 auto 25px;
   line-height: 1.6;
 }
+
 .hero a {
   text-decoration: none;
   color: #fff;
 }
+
 .hero-logo {
   width: 120px;
   margin-bottom: 25px;
@@ -91,8 +93,65 @@ body {
 }
 
 .card:hover {
+  cursor: pointer;
   transform: translateY(-6px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+#detail {
+  color: #3b7fe4;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal h3 {
+  margin-top: 20px;
+}
+
+.modal ul {
+  padding-left: 20px;
+  list-style-type: none;
+  padding: .5em;
+}
+
+.modal li {
+  margin: 1em;
+
+}
+
+.modal button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #7db3d7;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 /* BENEFITS */
@@ -112,20 +171,22 @@ body {
 }
 
 .graph {
- display: flex;
- margin: 0 auto;
- width: 80%;
- margin-bottom: 3em;
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 3em;
 }
+
 .graph img {
   margin: 1em;
   width: 40em;
-  height:20em;
+  height: 20em;
 }
-.graph img:hover{
+
+.graph img:hover {
   cursor: pointer;
   transform: scale(1.3);
-   transition: transform .8s ease;
+  transition: transform .8s ease;
 }
 
 /* CTA */
@@ -187,20 +248,16 @@ footer {
 
 @media (max-width:1024px) {
 
-      .graph {
-      
-      margin-bottom: 1em;
-      
-    }
-    .graph img{
-      width: 25em;
-      height: 12em;
-    }
-    .graph img:hover{
-        transform: scale(1.3);
-        transition: transform .8s ease;
-    }
+  .graph img {
+    width: 25em;
+    height: 12em;
   }
+
+  .graph img:hover {
+    transform: scale(1.3);
+    transition: transform .8s ease;
+  }
+}
 
 @media (max-width: 768px) {
   .service-grid {
@@ -211,69 +268,78 @@ footer {
   .card {
     padding: 20px;
   }
+
   .hero h1 {
-  font-size: xx-large;
+    font-size: xx-large;
   }
-   .hero h3 {
-  font-size: medium;
-  margin-top: 3em;
-  margin-bottom: 4em;
+
+  .hero h3 {
+    font-size: medium;
+    margin-top: 3em;
+    margin-bottom: 4em;
   }
-  .hero a
-  { 
+
+  .hero a {
     font-size: smaller;
     padding: 1em;
   }
 
-    .about {
+  .about {
     height: 35em;
-    }
-    .graph {
-      flex-direction: column;
-      margin-bottom: 1em;
-      
-    }
-    .graph img{
-      width: 36em;
-      height: 18em;
-    }
-    .graph img:hover{
-        transform: scale(1.3);
-        transition: transform .8s ease;
-    }
+  }
+
+  .graph {
+    flex-direction: column;
+    margin-bottom: 1em;
+
+  }
+
+  .graph img {
+    width: 36em;
+    height: 18em;
+  }
+
+  .graph img:hover {
+    transform: scale(1.3);
+    transition: transform .8s ease;
+  }
 
 }
 
 @media (max-width:450px) {
 
-      .graph {
-      flex-direction: column;
-      margin-bottom: 1em;
-      
-    }
-    .graph img{
-      width: 19em;
-      height: 9em;
-    }
-    .graph img:hover{
-        transform: scale(1.3);
-        transition: transform .8s ease;
-    }
+  .graph {
+    flex-direction: column;
+    margin-bottom: 1em;
+
   }
 
-  @media (max-width:425px) {
-
-      .graph {
-      flex-direction: column;
-      margin-bottom: 1em;
-      
-    }
-    .graph img{
-      width: 17em;
-      height: 9em;
-    }
-    .graph img:hover{
-        transform: scale(1.3);
-        transition: transform .8s ease;
-    }
+  .graph img {
+    width: 19em;
+    height: 9em;
   }
+
+  .graph img:hover {
+    transform: scale(1.3);
+    transition: transform .8s ease;
+  }
+}
+
+@media (max-width:425px) {
+
+  .graph {
+    flex-direction: column;
+    margin-bottom: 1em;
+
+  }
+
+  .graph img {
+    width: 17em;
+    height: 9em;
+  }
+
+  .graph img:hover {
+    transform: scale(1.3);
+    transition: transform .8s ease;
+  }
+}
