@@ -111,6 +111,23 @@ body {
   margin-bottom: 8px;
 }
 
+.graph {
+ display: flex;
+ margin: 0 auto;
+ width: 80%;
+ margin-bottom: 3em;
+}
+.graph img {
+  margin: 1em;
+  width: 50em;
+  height:25em;
+}
+.graph img:hover{
+  cursor: pointer;
+  transform: scale(1.3);
+   transition: transform .8s ease;
+}
+
 /* CTA */
 
 .cta {
@@ -193,6 +210,19 @@ footer {
 
     .about {
     height: 35em;
+    }
+    .graph {
+      flex-direction: column;
+      margin-bottom: 1em;
+      
+    }
+    .graph img{
+      width: 14em;
+      height: 8em;
+    }
+    .graph img:hover{
+        transform: scale(1.3);
+        transition: transform .8s ease;
     }
 
 }
