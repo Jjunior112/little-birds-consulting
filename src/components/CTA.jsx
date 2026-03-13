@@ -1,4 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp,FaYoutube, FaInstagram} from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 
@@ -27,13 +27,37 @@ function CTA() {
           </a>
 
           <a
-            href="https://wa.me/5531982208900"
+            href="https://wa.me/5531981143341"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
           >
             <FaWhatsapp size={40} />
           </a>
+
+          
+          <a
+            href="https://www.instagram.com/little.birds.consultoria/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram size={40} />
+
+            
+          </a>
+
+                    <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Youtube"
+          >
+            <FaYoutube  size={40} />
+
+            
+          </a>
+
 
         </div>
 
