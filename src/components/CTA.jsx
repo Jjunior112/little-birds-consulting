@@ -48,7 +48,7 @@ function CTA() {
           </a>
 
                     <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@LittleBirdsConsultoria"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Youtube"
