@@ -28,28 +28,28 @@ function Services() {
       ]
     },
 
-    {
-      title: "Diagnóstico de Eficiência Operacional",
+    // {
+    //   title: "Diagnóstico de Eficiência Operacional",
 
-      objetivo:
-        "Avaliar a eficiência da operação produtiva ou operacional, identificando perdas de produtividade, gargalos de processo e oportunidades de melhoria na utilização de recursos.",
+    //   objetivo:
+    //     "Avaliar a eficiência da operação produtiva ou operacional, identificando perdas de produtividade, gargalos de processo e oportunidades de melhoria na utilização de recursos.",
 
-      escopo: [
-        "Nível de utilização da capacidade operacional.",
-        "Produtividade por recurso ou unidade produtiva.",
-        "Disponibilidade de equipamentos ou recursos operacionais.",
-        "Ocorrência de retrabalho ou perdas de produção.",
-        "Eficiência geral da operação produtiva.",
-        "Custo operacional por unidade produzida ou serviço executado."
-      ],
+    //   escopo: [
+    //     "Nível de utilização da capacidade operacional.",
+    //     "Produtividade por recurso ou unidade produtiva.",
+    //     "Disponibilidade de equipamentos ou recursos operacionais.",
+    //     "Ocorrência de retrabalho ou perdas de produção.",
+    //     "Eficiência geral da operação produtiva.",
+    //     "Custo operacional por unidade produzida ou serviço executado."
+    //   ],
 
-      entregaveis: [
-        "Análise de eficiência da operação.",
-        "Identificação de gargalos operacionais.",
-        "Avaliação de perdas produtivas e desperdícios.",
-        "Recomendações para aumento de produtividade e eficiência."
-      ]
-    },
+    //   entregaveis: [
+    //     "Análise de eficiência da operação.",
+    //     "Identificação de gargalos operacionais.",
+    //     "Avaliação de perdas produtivas e desperdícios.",
+    //     "Recomendações para aumento de produtividade e eficiência."
+    //   ]
+    // },
 
     {
       title: "Diagnóstico de Capital e Eficiência de Estoque",
@@ -61,7 +61,7 @@ function Services() {
         "Giro de estoque por produto ou categoria.",
         "Cobertura de estoque e equilíbrio entre oferta e demanda.",
         "Capital financeiro imobilizado em estoque.",
-        "concentração de estoque em produtos de baixo giro.",
+        "Concentração de estoque em produtos de baixo giro.",
         "Ocorrência de ruptura de produtos estratégicos.",
         "Distribuição do estoque por relevância de faturamento ou margem."
       ],
